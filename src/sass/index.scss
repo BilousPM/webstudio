@@ -1,1 +1,14 @@
-@import './common';
+// utils styles
+@import './utils/module';
+
+// base styles
+@import './base/module';
+
+// components styles
+@import './components/module';
+
+// loyaut
+@import './loyaut/module';
+
+// pages
+@import './pages/module';

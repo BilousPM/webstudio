@@ -1,0 +1,38 @@
+.case {
+    padding-top: 0;
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+            display: block;
+        }
+}
+
+.case__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.case__item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.overlay__text {
+    padding: 27px 0;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
