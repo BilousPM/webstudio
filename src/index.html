@@ -37,6 +37,12 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" /> -->
 
+    <!-- ===== animate ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <!--==== custom styles ====-->
     <link rel="stylesheet" href="./sass/index.scss" />
 
@@ -59,7 +65,15 @@
     <include src="./partials/modal.html"></include>
     <include src="./partials/mobile.html"></include>
 
-    <include src="./js/modal.js"></include>
+    <!-- <include src="./js/modal.js"></include> -->
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+    <script type="module" src="./js/anchor-scroll.js"></script>
   </body>
 </html>
