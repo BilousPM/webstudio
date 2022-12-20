@@ -1,15 +1,42 @@
 .footer {
     background-color: #2f303a;
     padding: 60px 0;
-}
 
-.footer--container {
-    text-align: center;
 
-    @media screen and (min-width: 1200px) {
-        display: flex;
-        align-items: baseline;
-        text-align: left;
+   &--container {
+       text-align: center;
+
+       @media screen and (min-width: 1200px) {
+           display: flex;
+           align-items: baseline;
+           text-align: left;
+        }
+    }
+
+   &__wrapper--adress {
+          margin-bottom: 60px;
+
+            @media screen and (min-width: 768px) {
+              margin-bottom: 0;
+            }
+    }
+
+   &__wrapper--social {
+       margin-bottom: 60px;
+
+       @media screen and (min-width: 1200px) {
+           margin-bottom: 0;
+        }
+    }
+
+   &__wrapper--email {
+       display: flex;
+       flex-direction: column;
+       justify-content: left;
+
+       @media screen and (min-width: 1200px) {
+           margin-left: auto;
+        }
     }
 }
 
@@ -41,31 +68,7 @@
     }
 }
 
-.footer__wrapper--adress {
-    margin-bottom: 60px;
-        @media screen and (min-width: 768px) {
-            margin-bottom: 0;
-        }
 
-}
-
-.footer__wrapper--social {
-    margin-bottom: 60px;
-
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 0;
-    }
-}
-
-.footer__wrapper--email {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-
-    @media screen and (min-width: 1200px) {
-        margin-left: auto;
-    }
-}
 
 .adress__list {
     display: flex;
